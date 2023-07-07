@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --bg-color: #000000;
+    --main-font: 'Poppins', sans-serif;
+}
+
+.my_color {
+    background-color: var(--bg-color);
+}
+
+.my_font_title {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.my_font_button {
+    font-family: var(--main-font);
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.my_font_secundary {
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--bg-color);
+}
+
+.my_font_secundary_strong {
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #A5A5A5;
+}
+
+.box_login {
+    border-radius: 40px 40px 0px 0px;
+    border-color: #ffffff;
+}
+
+.icon_size {
+    height: 3rem;
+    width: 3rem;
+}
+
+.my_input {
+    border-radius: 10px;
+    background-color: #F1F1F1;
+    border-style: none;
+    text-decoration: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.my_button {
+    border-radius: 10px;
+    background-color: #CBE49B;
+    border-style: none;
+    height: 50px;
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .my_font_title {
+        font-family: var(--main-font);
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .my_font_button {
+        font-size: 1rem;
+    }
+
+    .my_font_secundary {
+        font-size: 0.635rem;
+    }
+
+    .my_font_secundary_strong {
+        font-size: 0.625rem;
+        font-weight: 400;
+    }
+
+    .box_login {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .icon_size {
+        height: 1.875rem;
+        width: 1.875rem;
+    }
+
+    .my_button {
+        border-radius: 10px;
+        background-color: #CBE49B;
+        border-style: none;
+        height: 50px;
+        width: 100%;
+    }
+}
